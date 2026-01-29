@@ -1,5 +1,3 @@
-# explanations for these functions are provided in requirements.py
-
 from graph import Graph
 from collections import deque
 import random

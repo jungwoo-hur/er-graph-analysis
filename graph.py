@@ -1,6 +1,3 @@
-# explanations for member functions are provided in requirements.py
-# each file that uses a graph should import it from this file.
-
 from collections.abc import Iterable
 
 class Graph:
@@ -31,6 +28,3 @@ class Graph:
 
 	def vertices(self) -> Iterable[int]: return range(self._num_nodes)
 
-	# feel free to define new methods in addition to the above
-	# fill in the definitions of each required member function (above),
-	# and for any additional member functions you define
